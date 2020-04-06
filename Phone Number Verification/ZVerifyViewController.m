@@ -78,7 +78,7 @@ ZTableViewController *tableViewController;
         }
         firstEntry= NO;
         self.validateBtn.enabled= YES;
-
+//show verification details from verifyViewController in tableViewController
 //        [self performSegueWithIdentifier:@"showDetailSegue" sender:@""];
        
 
@@ -216,6 +216,7 @@ ZTableViewController *tableViewController;
 
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    //BUG: that causes tableView to fill all the screen
     NSLog(@"prepareForSegue is called");
     if([segue.identifier isEqualToString:@"showDetailSegue"]){
         ZTableViewController *controller = (ZTableViewController*)segue.destinationViewController;
@@ -224,7 +225,7 @@ ZTableViewController *tableViewController;
 }
 
 -(void):NavigateToTableViewController{
-    //
+    //That make tableView fits into its containerView but does not display data in table cells
             tableViewController =[ZTableViewController alloc];
     
             UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tableViewController];
