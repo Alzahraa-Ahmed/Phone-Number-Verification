@@ -20,81 +20,68 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="mqt-5e-Kqr" kind="relationship" relationship="viewControllers" id="uW4-MO-ahn"/>
                         <segue destination="Leg-GC-DGI" kind="relationship" relationship="viewControllers" id="Qrc-GC-1WJ"/>
+                        <segue destination="6Ax-l8-TgZ" kind="relationship" relationship="viewControllers" id="qVh-Yh-y6f"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tiI-dF-meI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1087" y="-621"/>
         </scene>
-        <!--Verify-->
-        <scene sceneID="UXE-ku-Rak">
+        <!--Item-->
+        <scene sceneID="wwp-kQ-JKg">
             <objects>
-                <viewController id="mqt-5e-Kqr" customClass="ZVerifyViewController" customModule="Phone_Number_Verification" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tUa-Ig-f2a">
+                <viewController id="6Ax-l8-TgZ" customClass="ZVerifyViewController" customModule="Phone_Number_Verification" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OSf-gt-jha">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ofz-Ph-Yx4">
-                                <rect key="frame" x="20" y="190" width="374" height="623"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="623" id="RwK-pV-XnY"/>
-                                    <constraint firstAttribute="width" secondItem="Ofz-Ph-Yx4" secondAttribute="height" multiplier="374:623" id="fex-tE-7s7"/>
-                                    <constraint firstAttribute="width" constant="374" id="jhC-Ey-LyA"/>
-                                </constraints>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q5g-gB-AuY">
+                                <rect key="frame" x="20" y="237" width="374" height="576"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
-                                    <segue destination="SgO-X9-GOh" kind="embed" id="DRm-57-dkj"/>
+                                    <segue destination="SgO-X9-GOh" kind="embed" id="U6P-OX-k3g"/>
                                 </connections>
                             </containerView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDO-3O-KUn">
-                                <rect key="frame" x="170" y="475" width="74" height="50"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e8I-KM-4Za">
+                                <rect key="frame" x="47" y="433" width="321" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
-                                <state key="normal" title="Validate">
-                                    <color key="titleColor" red="0.31527666319999997" green="1" blue="0.21316178520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="btnClick:" destination="mqt-5e-Kqr" eventType="touchUpInside" id="lC6-N5-giE"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="bezel" placeholder="Number to be validated" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p5f-3t-97Z">
-                                <rect key="frame" x="75" y="410" width="265" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText"/>
-                                <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
-                                <connections>
-                                    <action selector="numberFieldEditEnded:" destination="mqt-5e-Kqr" eventType="editingDidEnd" id="40F-3v-iEf"/>
-                                    <outlet property="delegate" destination="mqt-5e-Kqr" id="wGF-lc-fJ2"/>
+                                    <action selector="numberFieldEditEnded:" destination="6Ax-l8-TgZ" eventType="editingDidEnd" id="Awx-BK-P98"/>
                                 </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJW-4a-MgY">
+                                <rect key="frame" x="184" y="510" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btnClick:" destination="6Ax-l8-TgZ" eventType="touchUpInside" id="XKS-Ao-IJk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Ofz-Ph-Yx4" firstAttribute="bottom" secondItem="bjm-he-rxW" secondAttribute="bottom" id="kTl-ie-pJb"/>
-                            <constraint firstItem="bjm-he-rxW" firstAttribute="trailing" secondItem="Ofz-Ph-Yx4" secondAttribute="trailing" constant="20" id="umd-R5-mex"/>
-                            <constraint firstItem="Ofz-Ph-Yx4" firstAttribute="leading" secondItem="bjm-he-rxW" secondAttribute="leading" constant="20" id="wBh-pH-aLm"/>
-                            <constraint firstItem="Ofz-Ph-Yx4" firstAttribute="top" secondItem="bjm-he-rxW" secondAttribute="top" constant="146" id="xNM-fk-thu"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="bjm-he-rxW"/>
+                        <viewLayoutGuide key="safeArea" id="zw3-i9-Zvm"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Verify" id="X1n-HB-9oD"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="N3I-oB-EQc"/>
                     <connections>
-                        <outlet property="numberField" destination="p5f-3t-97Z" id="frB-K0-hFH"/>
-                        <outlet property="tableSubView" destination="Ofz-Ph-Yx4" id="WMH-nw-Tig"/>
-                        <outlet property="validateBtn" destination="rDO-3O-KUn" id="ZGV-4i-ONI"/>
+                        <outlet property="numberField" destination="e8I-KM-4Za" id="I6S-j2-0GX"/>
+                        <outlet property="tableSubView" destination="q5g-gB-AuY" id="imZ-Jg-uEv"/>
+                        <outlet property="validateBtn" destination="oJW-4a-MgY" id="M9t-Jj-ddi"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nPV-gz-fdw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4sf-mw-hqf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-226.08695652173915" y="-621.42857142857144"/>
+            <point key="canvasLocation" x="-307.24637681159425" y="-609.375"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Item-->
         <scene sceneID="R5S-zx-UrK">
             <objects>
                 <tableViewController id="SgO-X9-GOh" customClass="ZTableViewController" customModule="Phone_Number_Verification" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="74y-CP-Yyr">
-                        <rect key="frame" x="0.0" y="0.0" width="374" height="623"/>
+                        <rect key="frame" x="0.0" y="0.0" width="374" height="576"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
@@ -129,6 +116,7 @@
                             <outlet property="delegate" destination="SgO-X9-GOh" id="mfK-1Z-z6B"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="kDt-w6-FG3"/>
                     <connections>
                         <outlet property="tableView" destination="74y-CP-Yyr" id="Lpv-mg-NUQ"/>
                     </connections>
