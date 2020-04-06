@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3E2A6A6B242CA9AA0030A948 /* v.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2A6A6A242CA9AA0030A948 /* v.png */; };
-		3E2A6A6E242CD76F0030A948 /* ZApiConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A6A6D242CD76F0030A948 /* ZApiConnection.m */; };
 		3E2A6A71242D122B0030A948 /* ZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A6A70242D122B0030A948 /* ZTableViewController.m */; };
 		3E7E06892434B1D4004CB075 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7E06882434B1D3004CB075 /* SystemConfiguration.framework */; };
 		3E7E068E2434B3C3004CB075 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E068D2434B3C3004CB075 /* Reachability.m */; };
-		3E8415F5243A933A0042F5D7 /* ZVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8415F4243A933A0042F5D7 /* ZVerifyViewController.m */; };
-		3EA1B565243A8CAF00F176D4 /* ZObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1B564243A8CAF00F176D4 /* ZObject.m */; };
 		3EAC65452430C47C001CEDE9 /* ZDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EAC65442430C47C001CEDE9 /* ZDBManager.m */; };
 		3EC4D905243A451300C69734 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC4D904243A451300C69734 /* Default-568h@2x.png */; };
 		3EE6B58C242C9CA9006CE746 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6B58B242C9CA9006CE746 /* AppDelegate.m */; };
@@ -23,21 +20,16 @@
 		3EE6B597242C9CAE006CE746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE6B595242C9CAE006CE746 /* LaunchScreen.storyboard */; };
 		3EE6B59A242C9CAE006CE746 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6B599242C9CAE006CE746 /* main.m */; };
 		3EE6B5A2242C9D21006CE746 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE6B5A1242C9D21006CE746 /* libsqlite3.0.tbd */; };
+		3EF92F79243B32B9009CD1E5 /* ZVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF92F77243B307E009CD1E5 /* ZVerifyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E2A6A6A242CA9AA0030A948 /* v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = v.png; path = ../v.png; sourceTree = "<group>"; };
-		3E2A6A6C242CD76F0030A948 /* ZApiConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZApiConnection.h; sourceTree = "<group>"; };
-		3E2A6A6D242CD76F0030A948 /* ZApiConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZApiConnection.m; sourceTree = "<group>"; };
 		3E2A6A6F242D122B0030A948 /* ZTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTableViewController.h; sourceTree = "<group>"; };
 		3E2A6A70242D122B0030A948 /* ZTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTableViewController.m; sourceTree = "<group>"; };
 		3E7E06882434B1D3004CB075 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3E7E068D2434B3C3004CB075 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		3E7E068F2434B3C7004CB075 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		3E8415F3243A933A0042F5D7 /* ZVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZVerifyViewController.h; sourceTree = "<group>"; };
-		3E8415F4243A933A0042F5D7 /* ZVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZVerifyViewController.m; sourceTree = "<group>"; };
-		3EA1B563243A8CAF00F176D4 /* ZObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZObject.h; sourceTree = "<group>"; };
-		3EA1B564243A8CAF00F176D4 /* ZObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZObject.m; sourceTree = "<group>"; };
 		3EAC65432430C47C001CEDE9 /* ZDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDBManager.h; sourceTree = "<group>"; };
 		3EAC65442430C47C001CEDE9 /* ZDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDBManager.m; sourceTree = "<group>"; };
 		3EC4D904243A451300C69734 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -52,6 +44,8 @@
 		3EE6B598242C9CAE006CE746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE6B599242C9CAE006CE746 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "/Users/fmohamed/Desktop/Phone Number Verification/Phone Number Verification/main.m"; sourceTree = "<absolute>"; };
 		3EE6B5A1242C9D21006CE746 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		3EF92F76243B307E009CD1E5 /* ZVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZVerifyViewController.h; sourceTree = "<group>"; };
+		3EF92F77243B307E009CD1E5 /* ZVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZVerifyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				3EC4D904243A451300C69734 /* Default-568h@2x.png */,
-				3E2A6A6C242CD76F0030A948 /* ZApiConnection.h */,
-				3E2A6A6D242CD76F0030A948 /* ZApiConnection.m */,
 				3E2A6A6A242CA9AA0030A948 /* v.png */,
 				3EE6B589242C9CA9006CE746 /* Phone Number Verification */,
 				3EE6B588242C9CA9006CE746 /* Products */,
@@ -91,17 +83,15 @@
 		3EE6B589242C9CA9006CE746 /* Phone Number Verification */ = {
 			isa = PBXGroup;
 			children = (
-				3E8415F3243A933A0042F5D7 /* ZVerifyViewController.h */,
-				3E8415F4243A933A0042F5D7 /* ZVerifyViewController.m */,
 				3EE6B58A242C9CA9006CE746 /* AppDelegate.h */,
 				3EE6B58B242C9CA9006CE746 /* AppDelegate.m */,
 				3EE6B58D242C9CA9006CE746 /* ViewController.h */,
 				3EE6B590242C9CA9006CE746 /* Main.storyboard */,
-				3EA1B563243A8CAF00F176D4 /* ZObject.h */,
-				3EA1B564243A8CAF00F176D4 /* ZObject.m */,
 				3EE6B58E242C9CA9006CE746 /* ViewController.m */,
 				3E7E068F2434B3C7004CB075 /* Reachability.h */,
 				3E7E068D2434B3C3004CB075 /* Reachability.m */,
+				3EF92F76243B307E009CD1E5 /* ZVerifyViewController.h */,
+				3EF92F77243B307E009CD1E5 /* ZVerifyViewController.m */,
 				3EE6B593242C9CAE006CE746 /* Assets.xcassets */,
 				3EE6B595242C9CAE006CE746 /* LaunchScreen.storyboard */,
 				3EE6B598242C9CAE006CE746 /* Info.plist */,
@@ -197,14 +187,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E2A6A6E242CD76F0030A948 /* ZApiConnection.m in Sources */,
 				3EE6B58F242C9CA9006CE746 /* ViewController.m in Sources */,
-				3EA1B565243A8CAF00F176D4 /* ZObject.m in Sources */,
 				3EE6B59A242C9CAE006CE746 /* main.m in Sources */,
 				3E2A6A71242D122B0030A948 /* ZTableViewController.m in Sources */,
+				3EF92F79243B32B9009CD1E5 /* ZVerifyViewController.m in Sources */,
 				3EAC65452430C47C001CEDE9 /* ZDBManager.m in Sources */,
 				3E7E068E2434B3C3004CB075 /* Reachability.m in Sources */,
-				3E8415F5243A933A0042F5D7 /* ZVerifyViewController.m in Sources */,
 				3EE6B58C242C9CA9006CE746 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
